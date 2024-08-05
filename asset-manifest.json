@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nixiiia/react-users-table/static/css/main.17f37f5d.css",
+    "main.js": "/nixiiia/react-users-table/static/js/main.426c8af0.js",
+    "index.html": "/nixiiia/react-users-table/index.html",
+    "main.17f37f5d.css.map": "/nixiiia/react-users-table/static/css/main.17f37f5d.css.map",
+    "main.426c8af0.js.map": "/nixiiia/react-users-table/static/js/main.426c8af0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17f37f5d.css",
+    "static/js/main.426c8af0.js"
+  ]
+}
