@@ -1,0 +1,25 @@
+.root {
+  padding-bottom: 30px;
+}
+
+.input {
+  position: relative;
+  left: 50%;
+  top: 20px;
+  transform: translateX(-50%);
+  border: 1px solid #d4defe;
+  border-radius: 20px;
+  padding: 12px;
+  padding-left: 24px;
+  height: 15px;
+  width: 300px;
+
+  &:focus {
+    border: 1px solid rgba(75, 75, 75, 0.7);
+    outline: none;
+  }
+
+  &:hover {
+    border: 1px solid #000;
+  }
+}

@@ -1,0 +1,33 @@
+.table {
+  width: 100%;
+  max-width: 1200px;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-size: 18px;
+  text-align: left;
+}
+
+.tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.th {
+  padding: 12px 15px;
+  border: 1px solid #dddddd;
+  position: relative;
+  min-width: 50px;
+}
+
+.resizer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 5px;
+  height: 100%;
+  background-color: #007d64;
+  cursor: col-resize;
+  user-select: none;
+}
