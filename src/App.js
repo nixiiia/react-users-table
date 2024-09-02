@@ -8,7 +8,7 @@ import { Modal } from './components/Modal';
 function App() {
   const [users, setUsers] = React.useState([]);
   const [searchTerm, setSearchTerm] = React.useState('');
-  const [sortConfig, setSortConfig] = React.useState({ key: null, direction: 'none' });
+  const [sortConfig, setSortConfig] = React.useState({ key: '', direction: '' });
   const [selectedUser, setSelectedUser] = React.useState(null);
 
   const fetchUsers = async () => {

@@ -29,6 +29,7 @@ export const Table = ({ users, handleSort, sortConfig, onClickUser }) => {
     document.addEventListener('mouseup', handleMouseUp);
   };
 
+
   return (
     <table className={styles.table} ref={tableRef}>
       <thead>
@@ -40,7 +41,7 @@ export const Table = ({ users, handleSort, sortConfig, onClickUser }) => {
                 ? ' ↑'
                 : sortConfig.direction === 'descending'
                 ? ' ↓'
-                : '')}
+                : ' ⇅')}
             <div
               className={styles.resizer}
               onMouseDown={(event) => handleMouseDown(event, 0)}></div>
@@ -52,7 +53,7 @@ export const Table = ({ users, handleSort, sortConfig, onClickUser }) => {
                 ? ' ↑'
                 : sortConfig.direction === 'descending'
                 ? ' ↓'
-                : '')}
+                : ' ⇅')}
             <div
               className={styles.resizer}
               onMouseDown={(event) => handleMouseDown(event, 1)}></div>
@@ -64,7 +65,7 @@ export const Table = ({ users, handleSort, sortConfig, onClickUser }) => {
                 ? ' ↑'
                 : sortConfig.direction === 'descending'
                 ? ' ↓'
-                : '')}
+                : ' ⇅')}
             <div
               className={styles.resizer}
               onMouseDown={(event) => handleMouseDown(event, 2)}></div>
@@ -82,7 +83,7 @@ export const Table = ({ users, handleSort, sortConfig, onClickUser }) => {
                 ? ' ↑'
                 : sortConfig.direction === 'descending'
                 ? ' ↓'
-                : '')}
+                : ' ⇅')}
             <div
               className={styles.resizer}
               onMouseDown={(event) => handleMouseDown(event, 4)}></div>
